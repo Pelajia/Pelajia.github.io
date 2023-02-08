@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    background-color: rgb(35, 35, 37);
+}
+
+#paper {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: white;
+}
+#left {
+    width: 30%;
+}
+#right {
+    width: 70%;
+}
+#name {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    font-size: 2vw;
+    border-bottom: 0.2vw solid black;
+}
+
+#info {
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+    padding-bottom: 3vw;
+}
+
+.section {
+    margin: auto;
+    width: 80%;
+}
+
+.title {
+    width: 100%;
+    border-bottom: 0.2vw solid black;
+    font-size: 1.2vw;
+}
+
+.body {
+    width: 100%;
+    font-size: 1vw;
+    padding-left: 4.5vw;
+    box-sizing: border-box;
+    padding-bottom: 2.8vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1vw;
+    box-sizing: border-box;
+    padding-bottom: 2.8vw;
+}
+
+.date {
+    width: 20%;
+}
+
+.content {
+    width: 80%;
+}
+
+.study {
+    font-weight: bold;
+}
+
+.location {
+    font-style: italic;
+}
